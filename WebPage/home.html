@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>人口學詞典檢索系統</title>
+    <style>
+                body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1, h2 {
+            color: #0056b3;
+            text-align: center;
+        }
+        h1 {
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 10px;
+        }
+        p {
+            margin-bottom: 1em;
+        }
+        a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .section {
+            margin-bottom: 2em;
+        }
+        #input1 {
+            width: 300px;
+            height: 30px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            padding: 5px;
+            font-size: 16px;
+            outline: none;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        #but1 {
+            width: 80px;
+            height: 42px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            padding: 5px;
+            font-size: 18px;
+            outline: none;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+        .footer {
+            font-size: 0.9em;
+            color: #555;
+            margin-top: 2em;
+            text-align: center;
+        }
+        .author { 
+        font-size: 0.9em; 
+        color: #555; 
+        margin-top: 10px; } 
+        .logo { display: flex; flex-direction: column; align-items: center; justify-content: center; margin-bottom: 2px; } 
+        .logo img { max-height: 180px; margin-bottom: 5px; } 
+        .author { font-size: 0.9em; color: #555; margin-top: 10px; }
+	  .chapter-link {
+	    display: block;
+	    width: fit-content;
+	    padding: 10px 20px;
+	    background-color: #e6f0ff;
+	    color: #0056b3;
+	    text-decoration: none;
+	    border-radius: 5px;
+	    margin: 20px auto 0;
+	    transition: background-color 0.3s;
+	    text-align: center;
+	}
+	.chapter-link:hover {
+	    background-color: #c7e0ff;
+	}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="imgs/logo_blue.png" alt="Logo">
+            <h1>人口學中文詞典檢索系統</h1>
+            <p>免費開放,人口學問一click即通！</p>
+        </div>
+
+        <form action="result.php" method="GET">
+            <p>請輸入需要檢索的關鍵詞：</p>
+            <input type="text" name="searchword" id="input1">
+            <input type="submit" value="檢索" id="but1">
+        </form>
+
+        <a href="index_query.html" class="chapter-link">章節索引</a>
+
+        <div class="footer">
+            <p>
+                <p class="author">本站維護：凌宛莹</p>
+                <a href="intro.html">項目簡介</a> | 
+                <a href="http://www.demopaedia.org/" target="_blank">Demopædia</a> | 
+                <a href="https://wanyingling.github.io/" target="_blank">聯絡站長</a>
+            </p>
+            <p>© 2024 ChineseDemopædia <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank">CC-BY-SA 3.0</a></p>
+        </div>
+    </div>
+</body>
+</html>
