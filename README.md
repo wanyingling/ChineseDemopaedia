@@ -1,8 +1,8 @@
 # 人口學中文詞典檢索系統 | ChineseDemopædia
 
-這是一個基於繁體中文的人口學詞典檢索系統,該系統是免費且開放的。本項目旨在為學生、教師、教授、研究人員、記者、政府相關部門和廣大公眾提供一個便捷的人口學專業術語查詢平台。
+這是一個基於繁體中文的人口學詞典檢索系統,該系統是免費且開放的。本項目旨在為學生、教師、研究人員提供一個便捷的人口學專業術語查詢平台。
 
-This is a traditional Chinese-based demographic dictionary search system that is free and open-source. It provides a convenient platform for students, teachers, professors, researchers, journalists, relevant government departments, and the general public to search for professional demographic terminology.
+This is a traditional Chinese-based demographic dictionary search system that is free and open-source. It provides a convenient platform for students, teachers, researchers to search for professional demographic terminology.
 
 ## 特點 | Features
 
