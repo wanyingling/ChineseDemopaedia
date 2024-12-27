@@ -1,8 +1,8 @@
-# 人口學中文詞典檢索系統 | ChineseDemopædia
+# 人口學中文詞典檢索工具 | ChineseDemopædia
 
-這是一個基於繁體中文的人口學詞典檢索系統,該系統是免費且開放的。本項目旨在為學生、教師、研究人員提供一個便捷的人口學專業術語查詢平台。
+這是一個基於繁體中文的人口學詞典檢索工具,該系統是免費且開放的。本項目旨在為學生、教師、研究人員提供一個便捷的人口學專業術語查詢平台。
 
-This is a traditional Chinese-based demographic dictionary search system that is free and open-source. It provides a convenient platform for students, teachers, researchers to search for professional demographic terminology.
+This is a traditional Chinese-based demographic dictionary search tool that is free and open-source. It provides a convenient platform for students, teachers, researchers to search for professional demographic terminology.
 
 ## 特點 | Features
 
@@ -69,3 +69,39 @@ This project was inspired and created by the author during the "[UM-NJNU Corpus 
 本項目與 Demopaedia 沒有官方關聯。它是一個獨立的工具,使用 Demopaedia 的內容作為參考來生成的多語言詞典。
 
 This project is not officially affiliated with Demopaedia. It is an independent tool that uses Demopaedia's content as a reference to generate multilingual dictionaries.
+
+## 引用本項目 | Citation
+
+### 英文引用 | English Citation
+
+@online{ling_chinesedemopaedia_2024,
+  title = {{ChineseDemopædia}: A Chinese-based Demographic Dictionary Search Tool},
+  rights = {{CC}-{BY}-{SA} 3.0},
+  url = {https://github.com/wanyingling/ChineseDemopaedia},
+  shorttitle = {A Chinese-based Demographic Dictionary Search Tool},
+  titleaddon = {{ChineseDemopædia}},
+  author = {Ling, Wanying},
+  date = {2024},
+  note = {An open-source demographic dictionary search tool based on PHP and SQL.}
+}
+
+Ling, Wanying. (2024). ChineseDemopædia: A Chinese-based Demographic Dictionary Search Tool. Retrieved from https://github.com/wanyingling/ChineseDemopaedia. CC-BY-SA 3.0.
+
+### 中文引用 | Chinese Citation
+
+@online{ling_chinesedemopaedia_2024,
+  title = {{ChineseDemopædia}：人口學中文詞典檢索工具},
+  rights = {{CC}-{BY}-{SA} 3.0},
+  url = {https://github.com/wanyingling/ChineseDemopaedia},
+  shorttitle = {人口學中文詞典檢索工具},
+  titleaddon = {{ChineseDemopædia}},
+  author = {{凌宛瑩}},
+  date = {2024},
+  note = {一個基於 PHP 和 SQL 的開源人口學詞典檢索工具。}
+}
+
+凌宛瑩. (2024). ChineseDemopædia：人口學中文詞典檢索工具. 獲取自 https://github.com/wanyingling/ChineseDemopaedia. CC-BY-SA 3.0.
+
+
+
+
